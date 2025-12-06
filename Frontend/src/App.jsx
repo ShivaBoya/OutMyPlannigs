@@ -42,7 +42,7 @@ export default function App() {
   const [authModalOpen, setAuthModalOpen] = useState(false);
   const [user, setUser] = useState(null);
 
-  const backendURL = import.meta.env.VITE_BACKEND_URL || "";
+  const backendURL = import.meta.env.VITE_BACKEND_URL || "https://planbackend-2.onrender.com";
 
   // const siteBg = darkMode ? "#0f172a" : "#e0f2fe"; // Removed for 3D Background
 

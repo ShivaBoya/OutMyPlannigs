@@ -12,7 +12,7 @@ import PollPanel from "./PollPanel";
 import ThemePicker from "./ThemePicker";
 import Chatting from "./Chatting";
 
-const BACKEND = import.meta.env.VITE_BACKEND_URL || "";
+const BACKEND = import.meta.env.VITE_BACKEND_URL || "https://planbackend-2.onrender.com";
 const socket = io(BACKEND, { withCredentials: true });
 
 export default function ChatBox({ darkMode, user }) {
