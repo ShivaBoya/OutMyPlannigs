@@ -2,7 +2,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Send, Bot, User, Sparkles } from "lucide-react";
 
-const BACKEND = import.meta.env.VITE_BACKEND_URL || "";
+const BACKEND = import.meta.env.VITE_BACKEND_URL || "https://planbackend-2.onrender.com";
 
 export default function BotPanel({ eventId, user }) {
   const [input, setInput] = useState("");

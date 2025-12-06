@@ -8,7 +8,7 @@ export default function CreateGroup({ darkMode, user }) {
   const [loading, setLoading] = useState(false);
 
   const navigate = useNavigate();
-  const backendURL = import.meta.env.VITE_BACKEND_URL || "";
+  const backendURL = import.meta.env.VITE_BACKEND_URL || "https://planbackend-2.onrender.com";
 
   // Glassmorphism Styles
   const cardClass = `w-full max-w-2xl p-8 rounded-3xl shadow-2xl transition-all border backdrop-blur-xl ${darkMode

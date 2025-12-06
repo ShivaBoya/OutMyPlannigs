@@ -39,7 +39,7 @@ export default function Navbar({
   const navigate = useNavigate();
   const location = useLocation();
 
-  const backendURL = import.meta.env.VITE_BACKEND_URL || "";
+  const backendURL = import.meta.env.VITE_BACKEND_URL || "https://planbackend-2.onrender.com";
 
   // PUBLIC SECTIONS
   const sections = [

@@ -16,7 +16,7 @@ export default function Dashboard({ darkMode, user, setAuthModalOpen }) {
     else setGreeting("Good Evening");
   }, []);
 
-  const backendURL = import.meta.env.VITE_BACKEND_URL || "";
+  const backendURL = import.meta.env.VITE_BACKEND_URL || "https://planbackend-2.onrender.com";
 
   const handleCreatePlan = async () => {
     try {

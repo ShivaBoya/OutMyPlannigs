@@ -3,7 +3,7 @@ import { toast } from "react-toastify";
 import { Link } from "react-router-dom";
 
 export default function MyEvents({ darkMode }) {
-  const backendURL = import.meta.env.VITE_BACKEND_URL || "";
+  const backendURL = import.meta.env.VITE_BACKEND_URL || "https://planbackend-2.onrender.com";
 
   const [events, setEvents] = useState([]);
   const [loading, setLoading] = useState(true);

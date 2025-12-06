@@ -8,7 +8,7 @@ import {
     XCircle
 } from "lucide-react";
 
-const BACKEND = import.meta.env.VITE_BACKEND_URL || "";
+const BACKEND = import.meta.env.VITE_BACKEND_URL || "https://planbackend-2.onrender.com";
 
 export default function PollsSection({ eventId, user, socket, darkMode }) {
     const [polls, setPolls] = useState([]);

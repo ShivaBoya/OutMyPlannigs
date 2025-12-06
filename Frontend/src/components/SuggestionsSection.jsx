@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { toast } from "react-toastify";
 import { MapPin, Film, Star, RefreshCw, PlusCircle, Filter } from "lucide-react";
 
-const BACKEND = import.meta.env.VITE_BACKEND_URL || "";
+const BACKEND = import.meta.env.VITE_BACKEND_URL || "https://planbackend-2.onrender.com";
 
 export default function SuggestionsSection({ eventId, groupId, darkMode }) {
     const [activeTab, setActiveTab] = useState("places"); // places | movies

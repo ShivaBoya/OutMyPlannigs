@@ -1,7 +1,7 @@
 // src/components/chat/PollPanel.jsx
 import React, { useEffect, useState } from "react";
 
-const BACKEND = import.meta.env.VITE_BACKEND_URL || "";
+const BACKEND = import.meta.env.VITE_BACKEND_URL || "https://planbackend-2.onrender.com";
 
 export default function PollPanel({ eventId, user }) {
   const [polls, setPolls] = useState([]);

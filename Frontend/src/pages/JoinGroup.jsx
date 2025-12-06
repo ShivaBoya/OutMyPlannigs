@@ -8,7 +8,7 @@ export default function JoinGroup({ darkMode }) {
 
   const { id } = useParams();
   const navigate = useNavigate();
-  const backendURL = import.meta.env.VITE_BACKEND_URL || "";
+  const backendURL = import.meta.env.VITE_BACKEND_URL || "https://planbackend-2.onrender.com";
 
   const cardBg = darkMode ? "#1f2937" : "white";
   const textColor = darkMode ? "#f3f4f6" : "#1f2937";

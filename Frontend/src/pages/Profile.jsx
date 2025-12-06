@@ -14,7 +14,7 @@ export default function Profile({ user, darkMode }) {
     address: "",
   });
 
-  const backendURL = import.meta.env.VITE_BACKEND_URL || "";
+  const backendURL = import.meta.env.VITE_BACKEND_URL || "https://planbackend-2.onrender.com";
 
   // Glassmorphism Styles
   const cardClass = `w-full max-w-3xl rounded-3xl p-8 shadow-2xl transition-all border backdrop-blur-xl ${darkMode

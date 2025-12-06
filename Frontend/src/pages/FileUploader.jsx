@@ -1,7 +1,7 @@
 // src/components/chat/FileUploader.jsx
 import React, { useRef } from "react";
 
-const BACKEND = import.meta.env.VITE_BACKEND_URL || "";
+const BACKEND = import.meta.env.VITE_BACKEND_URL || "https://planbackend-2.onrender.com";
 
 export default function FileUploader({ onUploaded }) {
   const ref = useRef();

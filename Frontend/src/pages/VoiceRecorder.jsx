@@ -1,7 +1,7 @@
 // src/components/chat/VoiceRecorder.jsx
 import React, { useState, useRef } from "react";
 
-const BACKEND = import.meta.env.VITE_BACKEND_URL || "";
+const BACKEND = import.meta.env.VITE_BACKEND_URL || "https://planbackend-2.onrender.com";
 
 export default function VoiceRecorder({ onRecorded }) {
   const [rec, setRec] = useState(false);

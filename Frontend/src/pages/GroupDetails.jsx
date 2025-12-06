@@ -22,7 +22,7 @@ export default function GroupDetails({ darkMode, user }) {
   const [inviteLink, setInviteLink] = useState("");
 
   const backendURL =
-    import.meta.env.VITE_BACKEND_URL || "";
+    import.meta.env.VITE_BACKEND_URL || "https://planbackend-2.onrender.com";
 
   // Colors
   const textColor = darkMode ? "text-slate-100" : "text-slate-800";

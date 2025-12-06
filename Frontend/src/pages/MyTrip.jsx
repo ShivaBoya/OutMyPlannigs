@@ -8,7 +8,7 @@ export default function MyTrip({ darkMode }) {
   const navigate = useNavigate();
   const location = useLocation();
 
-  const backendURL = import.meta.env.VITE_BACKEND_URL || "";
+  const backendURL = import.meta.env.VITE_BACKEND_URL || "https://planbackend-2.onrender.com";
 
   // Glassmorphism Styles
   const cardClass = `p-8 rounded-3xl shadow-xl transition-all border backdrop-blur-md cursor-pointer hover:scale-[1.02] hover:shadow-2xl ${darkMode
