@@ -18,6 +18,10 @@ import {
   Sparkles
 } from "lucide-react";
 
+import SuggestionsSection from "../components/SuggestionsSection";
+import PollsSection from "../components/PollsSection";
+import BotWidget from "../components/BotWidget";
+
 const BACKEND = import.meta.env.VITE_BACKEND_URL || "https://planbackend-2.onrender.com";
 
 export default function EventDetails({ darkMode, user }) {
